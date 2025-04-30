@@ -1,0 +1,16 @@
+[package]
+name = "bulba-utils"
+version = "1.0.0"
+authors = ["TypicalHog"]
+edition = "2024"
+description = "Utilities for Bulbastore"
+readme = "README.md"
+repository = "https://github.com/HackzNaw/bulba-utils"
+license = "Unlicense OR MIT OR Apache-2.0"
+
+[dependencies]
+chrono = "0.4.41"
+dialoguer = "0.11.0"
+serde = { version = "1.0.219", features = ["derive"] }
+serde_json = "1.0.140"
+ureq = "3.0.11"
